@@ -1,11 +1,10 @@
-import PropTypes from 'prop-types';
-import './FeedbackOptions.css'
+import PropTypes from 'prop-types'; 
 
 export default function FeedbackOptions({ options, leaveFeedback }){
     return(
-        <div class="buttons">
+        <div className="buttons">
             {options.map(option => (
-                <button key={option} name={option} className={`${option}-btn btn`} onClick={leaveFeedback} type="button">{option}</button>
+                <button key={option} name={option} onClick={leaveFeedback} type="button">{option}</button>
             ))}
         </div>
     )
