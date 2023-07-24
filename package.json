@@ -1,7 +1,7 @@
 {
-  "name": "state-react",
+  "name": "react-hw-06-feedback-hooks",
   "version": "0.1.0",
-  "homepage": "https://1Danilka1.github.io/react-hw-03-feedback",
+  "homepage": "https://1Danilka1.github.io/react-hw-06-feedback-hooks",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
