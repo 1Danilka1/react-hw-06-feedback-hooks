@@ -8,6 +8,7 @@ export default function Notification({ notify }){
     )
 }
 
+
 Notification.propType = {
     notify: PropTypes.string.isRequired
 }
